@@ -1,8 +1,8 @@
 var random1= Math.round((Math.random()*5)+1);
 var random2= Math.round((Math.random()*5)+1);
 
-var randomdice1="images/dice"+random1+".png";
-var randomdice2="images/dice"+random2+".png";
+var randomdice1="dice"+random1+".png";
+var randomdice2="dice"+random2+".png";
 
 const imageselct=document.querySelectorAll("img");
 imageselct[0].setAttribute("src",randomdice1);
